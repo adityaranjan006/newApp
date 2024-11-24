@@ -8,6 +8,9 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -20,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.adi006.newForntend"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b110f4ec-ec60-44cd-b55b-0c54186fdbbb"
+      }
+    },
+    "owner": "adi006"
   }
 }

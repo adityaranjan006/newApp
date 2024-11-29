@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
 import { LinearGradient } from 'expo-linear-gradient';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { constants } from "../../constants/CONSTANTS";
 import BasicCard from "./basicCard";
 

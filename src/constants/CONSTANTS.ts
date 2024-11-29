@@ -1,3 +1,5 @@
+import { Image } from "react-native"
+
 export const constants={
     "bg-primary":"#000000",
     "btn-primary-active-color":"#2A2A2A",
@@ -43,4 +45,3 @@ export const cardGradient=[
     constants["card-gradient-start-color"], 
     constants["card-gradient-start-color"], 
 ]
-

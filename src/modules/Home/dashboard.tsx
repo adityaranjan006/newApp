@@ -192,11 +192,11 @@ const LFTRFT = () => {
         <SafeAreaView>
             <BG style={{ position: "absolute", marginTop:-120 }} color1={activeButton===ActiveButton.Left?bgLeft:bgRight} color2="#010103"/>
             <View style={styles.container}>
-                <View style={{ width: '95%',maxWidth: wp("100%"),position:"relative", justifyContent: "center" }}>
+                <View style={{ width: '95%',maxWidth: wp("100%"),position:"relative", justifyContent: "center",alignItems:"center" }}>
                     {activeBedContent}
-                </View>
-                <View>
+                    <View>
                     <BedSide/>
+                </View>
                 </View>
                 <View style={styles.row}>
                     <TouchableOpacity

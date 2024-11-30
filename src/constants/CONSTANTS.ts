@@ -45,3 +45,6 @@ export const cardGradient=[
     constants["card-gradient-start-color"], 
     constants["card-gradient-start-color"], 
 ]
+
+export const LBED= require("../../assets/icons/lBedNB.png")
+export const RBED= require("../../assets/icons/rBedNB.png")
